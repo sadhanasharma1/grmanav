@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+.slick-dots {
+  @apply bottom-4;
+}
+
+.slick-dots li button:before {
+  @apply text-white opacity-75;
+}
+
+.slick-dots li.slick-active button:before {
+  @apply text-white opacity-100;
+}
